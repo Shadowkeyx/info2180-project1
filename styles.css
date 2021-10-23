@@ -1,11 +1,207 @@
 /* Add your CSS to this file */
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
 .container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+}
+
+header{
+    background-color: white;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+h1{
+   float : left;
+}
+
+nav{
+    float:right;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    
+}
+a{
+    color: #6b7280;
+}
+a:hover, a:active{
+    color: #5A678D;
+}
+
+.overview-hero{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2E8F0;
+    padding: 25px;
+    border: 20px;
+    margin: 40px;
+}
+
+.overview-hero-image img{
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    float: left;
+}
+
+.overview-hero-text h2{
+   font-size: 24px;
+   color: #48BB78;
+}
+
+.overview-hero-text p{
+    color: black;
+}
+
+.learn-about{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px;
+    padding: 20px;
+}
+
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.learn-about h3{
+    font-size: 21px;
+    color: #48BB78;
+}
+
+.learn-about p {
+    color: black;
+}
+
+.card{
+    border-style: groove;
+    border: 1px solid;
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    margin: 25px;
+    padding:10px;
+    box-shadow: 3px 3.5px #b6b6b6;
+}
+
+.card img{
+
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+}
+
+
+
+.testing{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #4A5568;
+    padding: 25px;
+    border: 20px;
+    margin: 40px;
+}
+
+.testing-desciption{
+    color: white !important;
+    text-align: left;
+}
+
+
+.cta a{
+  background-color: #48bb78;
+  border: none;
+  color: white !important;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+  border-radius: 5px;
+}
+
+
+
+
+.stories{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+    border: 20px;
+    margin: 40px;
+
+}
+
+
+.stories h2{
+    color: #5A67D8 !important;
+    
+
+}
+
+.stories p{
+    color: black;
+}
+
+
+article-body a{
+    color: #5A67D8 !important;
+}
+
+article-body h3{
+    font-size: 18px;
+}
+
+article img{
+    border-radius: 75%;
+    width: 200px;
+    float: left;
+}
+
+
+
+.newsletter{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #48BB78;
+    padding: 10px;
+    border: 20px;
+
+}
+
+.newsletter h3, p{
+    color: white;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #4A5568;
+    color: white;
+    padding: 10px;
+    border: 20px;
+    
 }
