@@ -105,6 +105,7 @@ a:hover, a:active{
     border-radius: 10px;
     padding: 5px;
     width: 300px;
+    
 }
 
 
@@ -173,7 +174,8 @@ article-body h3{
 
 article img{
     border-radius: 75%;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     float: left;
 }
 
